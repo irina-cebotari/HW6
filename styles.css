@@ -1,0 +1,50 @@
+.testHW {
+    margin: 8px 32px 32px 16px;
+    padding: 32px 16px;
+    border: 1px solid rgb(0, 0, 0)
+}
+
+.testHW1 {
+    color:red;
+}
+
+.Square {
+    height: 75px;
+    width: 75px;
+    border: solid black;
+}
+
+#hoverHW:hover {
+    border: solid red;
+    cursor: pointer;
+}
+
+.name1 {
+    position: relative;
+    top: ;
+    height: 50px;
+    width: 250px;
+    background-color: darkgrey;
+}
+
+.name2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
+    width: 25%;
+    background-color: darkorange;
+}
+
+.text::before {
+    color: red;
+    content: 'inainte ';
+    margin-right: 6px;
+}
+
+.text::after {
+    color: blue;
+    content: 'dupa';
+    margin-left: 6px;
+}
