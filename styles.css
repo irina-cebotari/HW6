@@ -4,9 +4,16 @@
     border: 1px solid rgb(0, 0, 0)
 }
 
-.testHW1 {
-    color:red;
+.testHW1 :nth-child(1) {
+    color: red;
 }
+.testHW1 :nth-child(3) {
+    color: red;
+}
+.testHW1 :nth-child(8) {
+    color: red;
+}
+
 
 .Square {
     height: 75px;
@@ -14,7 +21,7 @@
     border: solid black;
 }
 
-#hoverHW:hover {
+.Square:hover {
     border: solid red;
     cursor: pointer;
 }
